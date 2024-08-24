@@ -225,7 +225,8 @@ fieldset {
     width: 100%;
     padding-top: 1rem;
 }
-form{
+
+form {
     width: 52%;
     padding-left: 10px;
 }
@@ -239,19 +240,21 @@ select {
 }
 
 span {
-    color: red;
+    /* color: red; */
 }
-.form-buttons input{
+
+.form-buttons input {
     width: 100px !important;
     opacity: 1;
 }
+
 .error {
     color: red;
     font-size: 90%;
     transform: translateY(30px);
 }
-.
 
+.
 /* h2 {
     text-align: center;
     text-decoration: underline;

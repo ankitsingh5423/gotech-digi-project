@@ -1,5 +1,5 @@
 const countDownEl = document.getElementById('countdown-timer');
-const futureDate = "24 August 2024"
+const futureDate = "26 August 2024"
 
 
 function countDown() {
