@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <!-- ----------------------------- font-family ----------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ---------------------------- bootstrp-link ---------------------------- -->
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+
+    <!-- ----------------------------- style-link ------------------------------ -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- --------------------------- header-section ---------------------------- -->
+    <div class="container-fuild py-3 header-wrapper">
+        <div class="container-md" id="header">
+            <div class="row g-0">
+                <div class="col-lg-6 text-center align-self-center text-white">
+                    <h4 class="m-0">Masterclass Name Starts In <span id="countdown-timer">00:00:00</span></h4>
+                </div>
+                <div class="col-lg-6 text-lg-end text-center mt-3 mt-lg-0">
+                    <a class="btn reserve_btn text-dark" href="javascript:void(0);">Reserve Your Seat Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------- hero-section ----------------------------- -->
+
+    <section class="container-fuild hero py-lg-0 py-4">
+        <div class="container">
+            <h4 class="body-heading text-center text-white">
+                Learn/Discover What/How <span class="heading-highlight">(specific big
+                    results)</span> Using This <span class="heading-highlight">(Method Name)</span> & How
+                <span class="fst-italic">You Can get the Same Results</span>
+            </h4>
+            <p class="body-text text-light fs-4 text-center pt-lg-4 pt-3">
+                Learn (method), with (features or benefits) or without (objection) & Go From A
+                To B In Just (specific time)
+            </p>
+        </div>
+    </section>
+
+    <section class="container-lg translate-middle-y translate-middle-y-mob mt-lg-5 mt-2 position-relative">
+        <video class="w-100" id="video-player">
+            <source src=" https://cdn.pixabay.com/video/2020/05/08/38521-418027189_large.mp4" type="video/mp4">
+            <source src="https://cdn.pixabay.com/video/2020/05/08/38521-418027189_large.mp4" type="video/ogg">
+            Your browser does not support HTML video.
+        </video>
+        <div class="parent">
+            <button type="button" id="play-btn" class="play_icon">
+                <div class="play_pause_icon play"></div>
+            </button>
+        </div>
+        <div class="text-center my-3 mt-lg-0">
+            <button type="button" class="btn reserve_btn text-dark" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Register Here</button>
+        </div>
+    </section>
+    <section class="container mt-n300">
+        <div class="features-on mt-lg-2 mt-1">
+            <p class="text-center fs-4 fw-bold pt-2">Featured on</p>
+            <ul class="d-flex flex-sm-row flex-column justify-content-center pb-2">
+                <li class="m-auto"><img src="images/master-chef-logo.webp" alt=""></li>
+                <li class="m-auto"><img src="images/nourish-genie logo.jpg" alt=""></li>
+                <li class="m-auto"><img src="images/BBC-earth-logo.jpeg" alt=""></li>
+                <li class="m-auto"><img src="images/ted-logo.png" alt=""></li>
+                <li class="m-auto"><img src="images/times-logo.png" class="bg-sucess" alt=""></li>
+            </ul>
+
+        </div>
+
+        <div class="info d-flex justify-content-center mt-5 mb-5">
+            <div class="info-boxes text-center mt-lg-0 mt-sm-3">
+                <div class="info-text">
+                    <h5>By Coach’s Name</h5>
+                    <p>Multiple National Award <br>
+                        Winning Trader</p>
+                </div>
+            </div>
+            <div class="info-boxes text-center mt-lg-0 mt-sm-3">
+                <div class="info-text">
+                    <h5> 2 Lakhs+</h5>
+                    <p>Students Trained</p>
+                </div>
+            </div>
+            <div class="info-boxes text-center mt-lg-0 mt-sm-3">
+                <div class="info-text">
+                    <h5>18+ Years</h5>
+                    <p>Of Experience</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="register text-center">
+            <a class="btn register-btn text-dark" href="javascript:void(0);">Register Now For Just ₹97/- <br>
+                <p class="button-price fs-5 fw-lighter">Actuall Price <del>₹599</del>/</p>
+            </a>
+        </div>
+
+        <div class="payment-type container mt-5">
+            <ul class="payment-methods d-flex flex-sm-row flex-column justify-content-center">
+                <li class="m-auto"><img src="images/razorpay.webp" alt=""></li>
+                <li class="m-auto"><img src="images/UPI-Logo.png" alt=""></li>
+                <li class="m-auto"><img src="images/visa-logo.png" alt=""></li>
+                <li class="m-auto"><img src="images/Mastercard_new_logo-1200x865.webp" alt=""></li>
+                <li class="m-auto"><img src="images/secure-logo.jpg" alt=""></li>
+            </ul>
+            <p class="text-center fw-bold fs-5">Price Goes Up Soon To ₹599</p>
+        </div>
+    </section>
+
+
+    <!-- ---------------------------- Award-section ---------------------------- -->
+    <div class="award-wraper container-fluid mt-5">
+        <div class="container award">
+            <h5 class="award-heading text-white">Learn (method name) From A Multiple <br> Award Winner</h5>
+            <div class="row g-0">
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+            </div>
+            <div class="mt-4">
+                <button class="btn reserve_btn fw-bold">Yes, Reserve My Spot Now Just For ₹97</button>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-lg-6 order-sm-0 order-1 d-flex flex-column justify-content-between">
+                <div>
+                    <h2 class="fw-bold">Know Your Coach</h2>
+                    <h4 class="text-primary fw-bold">(Mentor Name)</h4>
+                    <small>(NAMEE) has clearly established himself as an Authority on (_____) and (_____________), for
+                        which
+                        he also</small>
+                </div>
+
+                <div class="pt-4">
+                    <h5 class="text-primary fw-bold">Received (Awards, Achievements)</h5>
+                    <small>and featured in Top Publications In last few years.
+                        (NAME) talks about (Method) which no one talks
+                        about. <br>
+                        He has given hits after hits in his work on ____, _____
+                        and _______.</small>
+                </div>
+
+                <div class="pt-4">
+                    <h5 class="text-primary fw-bold">Helping 200,000+ people</h5>
+                    <small>Get (specific results) through his seminars and
+                        events, <br>
+                        (mentor name) is a well known figure in (industry
+                        name)</small>
+                </div>
+            </div>
+            <div class="col-lg-6 order-sm-1 order-0 mb-4 mb-sm-0 text-center">
+                <div class="h-100">
+                    <img class="img-fluid h-100"
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/corporate-user-icon.png"
+                        alt="">
+                </div>
+                <div class="mt-lg-2 mt-1" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <p class="text-center fs-6 fw-bold pt-2">Featured on</p>
+                    <ul class="d-flex flex-sm-row flex-column justify-content-center pb-2">
+                        <li class="m-auto"><img height="50px" src="images/master-chef-logo.webp" alt=""></li>
+                        <li class="m-auto"><img height="50px" src="images/nourish-genie logo.jpg" alt=""></li>
+                        <li class="m-auto"><img height="50px" src="images/BBC-earth-logo.jpeg" alt=""></li>
+                        <li class="m-auto"><img height="50px" src="images/ted-logo.png" alt=""></li>
+                        <li class="m-auto"><img height="50px" src="images/times-logo.png" class="bg-sucess" alt=""></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-0 py-5">
+            <div class="winner col-lg-4 p-3">
+                <img class="img-thumbnail" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" src="images/image.png"
+                    alt="">
+            </div>
+            <div class="winner col-lg-4 p-3">
+                <img class="img-thumbnail" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" src="images/image.png"
+                    alt="">
+            </div>
+            <div class="winner col-lg-4 p-3">
+                <img class="img-thumbnail" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" src="images/image.png"
+                    alt="">
+            </div>
+        </div>
+
+        <div class="register text-center">
+            <a class="btn register-btn text-dark py-4" href="javascript:void(0);">Reserve My Seats Just For ₹97</a>
+        </div>
+
+        <div class="w-50 m-auto mt-3">
+            <ul class=" d-flex flex-sm-row flex-column justify-content-center">
+                <li class="m-auto"><img height="50px" src="images/razorpay.webp" alt=""></li>
+                <li class="m-auto"><img height="50px" src="images/UPI-Logo.png" alt=""></li>
+                <li class="m-auto"><img height="50px" src="images/visa-logo.png" alt=""></li>
+                <li class="m-auto"><img height="50px" src="images/Mastercard_new_logo-1200x865.webp" alt=""></li>
+                <li class="m-auto"><img height="50px" src="images/secure-logo.jpg" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="py-5">
+            <h1 class="text-center fw-bold">Still Not Sure?</h1>
+            <h3 class="text-center fw-bold">See These Results Generated By Our Students</h3>
+            <h5 class="text-center mt-2">(Some Of These Were Trading For The First Time)</h5>
+
+            <div class="row g-0 justify-content-around my-4 px-5">
+                <div class=" col-md-4 col-12 px-sm-4 px-1"> <img class="img-fluid"
+                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" src="images/image.png" alt=""></div>
+                <div class=" col-md-4 col-12 px-sm-4 px-1"> <img class="img-fluid"
+                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" src="images/image.png" alt=""></div>
+                <div class=" col-md-4 col-12 px-sm-4 px-1"> <img class="img-fluid"
+                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" src="images/image.png" alt=""></div>
+            </div>
+
+            <div class="row g-0 justify-content-around my-4 px-5">
+                <div class=" col-md-4 col-12 px-sm-4 px-1"> <img class="img-fluid"
+                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" src="images/image.png" alt=""></div>
+                <div class=" col-md-4 col-12 px-sm-4 px-1"> <img class="img-fluid"
+                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" src="images/image.png" alt=""></div>
+                <div class=" col-md-4 col-12 px-sm-4 px-1"> <img class="img-fluid"
+                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" src="images/image.png" alt=""></div>
+            </div>
+
+            <div class="register text-center mt-5">
+                <a class="btn register-btn text-dark py-4" href="javascript:void(0);">Yes, I Want This _________ Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="award-wraper container-fluid">
+        <div class="container py-5">
+            <h1 class="text-white fw-bold text-center">What People Say About My System</h1>
+            <div class="row g-0 my-4">
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+            </div>
+            <div class="row g-0 my-4">
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+            </div>
+            <div class="row g-0 my-4">
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+            </div>
+            <div class="row g-0 my-4">
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+                <div class="winner col-lg-4 p-3">
+                    <img class="img-thumbnail" src="images/image.png" alt="">
+                </div>
+            </div>
+            <div class="register text-center">
+                <a class="btn register-btn text-dark" href="javascript:void(0);">Register Now For Just ₹97/- <br>
+                    <p class="button-price fs-5 fw-lighter">Actuall Price <del>₹599</del>/</p>
+                </a>
+            </div>
+            <div class="w-75 m-auto mt-3">
+                <ul class=" d-flex flex-sm-row flex-column justify-content-center gap-3">
+                    <li class="m-auto"><img height="80px" src="images/razorpay.webp" alt=""></li>
+                    <li class="m-auto"><img height="80px" src="images/UPI-Logo.png" alt=""></li>
+                    <li class="m-auto"><img height="80px" src="images/visa-logo.png" alt=""></li>
+                    <li class="m-auto"><img height="80px" src="images/Mastercard_new_logo-1200x865.webp" alt=""></li>
+                    <li class="m-auto"><img height="80px" src="images/secure-logo.jpg" alt=""></li>
+                </ul>
+                <p class="text-center text-white fw-bold fs-5 mt-2">Price Goes Up Soon To ₹599</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Register</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <form name="contactForm" onsubmit="return validateForm()" action="#" method="" class="m-auto w-100 px-2">
+                        <h2 class="text-dark text-center py-3">Candidate Details</h2>
+
+                        <label for="">First Name</label>
+                        <span>*</span>
+                        <br>
+                        <input type="text" name="name" id="name" placeholder="Your Name" class="form-control">
+                        <div class="error" id="nameErr"></div>
+                        <br>
+                        <label for="" class="pt-3">Email</label>
+                        <span>*</span>
+                        <br>
+                        <input type="text" name="email" id="email" placeholder="Your E-mail" class="form-control">
+                        <div class="error" id="emailErr"></div>
+                        <br>
+
+                        <label for="" class="pt-3">Contect Number</label>
+                        <span>*</span>
+                        <br>
+                        <input type="number" name="mobile" id="contact" placeholder="Your Number" class="form-control">
+                        <div class="error" id="contactErr"></div>
+                        <br>
+
+                        <label for="" class="pt-3">Enter your query</label>
+                        <textarea class="form-control" id="query" rows="5" cols="90"></textarea>
+                        <br>
+
+                        <div class="row mt-5 form-buttons text-lg-center text-md-left">
+                            <div class=" col-lg-4 col-md-4 ">
+                                <label for=""></label>
+                                <input type="submit" value="Submit">
+                                <!-- <button class="px-3 border-light" onclick="sendToWhatsapp()">submit</button> -->
+                            </div>
+                            <div class=" col-lg-4 col-md-4 ps-lg-0 ps-md-2 text-start">
+                                <label for=""></label>
+                                <input type="reset" value="Reset">
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
